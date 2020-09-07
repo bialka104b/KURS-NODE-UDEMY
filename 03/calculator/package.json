@@ -1,0 +1,14 @@
+{
+    "main": "index.js",
+    "text" : {
+        "1" : "Jeżeli nazwa mojego pliku była by inna niż index.js a chcielibysmy podawać w pliku main.js",
+        "2": "taką ścieżkę const calc = require(./calculator  to trzeba nazwe tego pliku umieścić",
+        "3": "w pliku package.json main: index.js lub inna nazwa pliku",
+        
+        "4": "Node nie znajdzie pliku calculator.js więc sprawdzi czy mamy taki katalog",
+        "5": "jeśli katalog jest to sprawdzi czy jest w nim plik package.json",
+        "6": "Jesli jest to sprawdzi czy w tym pliku jest klucz main i na jaki plik kieruje ten klucz",
+        "7": "jeżeli istnieje taki plik to wykona ten właśnie plik"
+    }
+}
+
