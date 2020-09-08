@@ -27,36 +27,59 @@ Autor eduweb.pl
 
 ## :sparkles: Features ##
 
-:heavy_check_mark: katalog 06 ZDARZENIA;\
+:heavy_check_mark: katalog 06 ZDARZENIA;
 - Tworzenie zdarzeń
 - Wywoływanie zdarzeń
 - Tworzenie klas które pobierają cos z internetu (API) i przesyłają dalej
 - Event Emitter
 
-:heavy_check_mark: katalog 07 BUFFER;\
+:heavy_check_mark: katalog 07 BUFFER;
 - Bufor który przechowuje określoną liczbę bajtów, surowych danych binarnych
 - Nie trzeba go importować
 - Służy do kodowania znaków np polskich
 
-:heavy_check_mark: katalog 08 STREAM;\
-- jest to pewnego rodzaju klasa napisana w Node.js;\<br>
-- jego zadaniem jest ograniczenie zużycia pamięci;\<br>
-- dziedziczy z modułów EventEmitter;\<br>
-- rodzaje streemów:;\<br>
--- odczytywalny (readable);\<br>
--- odczytywalno zapisywalny (duplex);\<br>
--- transformacyjny (transform) - dane wchodzą,  są zmieniane i wychodza nowe dane;\<br>
--- zapisywalny (writeable);\<br>
+:heavy_check_mark: katalog 08 STREAM;
+- jest to pewnego rodzaju klasa napisana w Node.js;
+- jego zadaniem jest ograniczenie zużycia pamięci;
+- dziedziczy z modułów EventEmitter;>
+- rodzaje streemów:
+-- odczytywalny (readable);
+-- odczytywalno zapisywalny (duplex);
+-- transformacyjny (transform) - dane wchodzą,  są zmieniane i wychodza nowe dane;
+-- zapisywalny (writeable);
 ```
 process.stdout.write("Hello world");
 ```
-:heavy_check_mark: katalog 09 PROCES;\
-- zabijanie procesu w node;\
-- process.pid;\
-- uruchamianie pliku index.js bez REPLA;\
-:heavy_check_mark: katalog 10 ZDARZENIA;\
-:heavy_check_mark: katalog 11 ZDARZENIA;\
-:heavy_check_mark: katalog 12 ZDARZENIA;
+:heavy_check_mark: katalog 09 PROCES;
+- zabijanie procesu w node;
+- process.pid;
+- uruchamianie pliku index.js bez REPLA;
+
+:heavy_check_mark: katalog 10 READLiNE;
+- czyszczenie interfejsu
+- czyszczenie lini
+- przesuwanie kursora
+- .createInterface({})
+- .close
+- program losowanie nagród z tablicy
+
+:heavy_check_mark: katalog 11 ODCZYTYWANIE INFORMACJI O PLIKACH;
+- fs.exist() - czy dany plik istnieje
+- fs.stat() - czy dany plik istnieje
+- path.join() - łączenie ścieżki w string
+- funkcja error-first-callback
+- err.message - wyświetlanie błędów
+- fs.readdir() - odczytaj ścieżkę katalogu
+- stats.birthtime - data utworzenia pliku
+- stats.mtime - data ostatniej modyfikacji pliku
+- stats.isFile - (boolean) czy coś jest plikiem, czy plik istnieje
+- stats.isDirectory - (boolean) czy folder istnieje
+
+:heavy_check_mark: katalog 12 ODCZYTYWANIE PLIKÓW;
+- .toString("utf-8") - metoda do odkodowywania buffera na string
+- ODCZYTYWANIE ASYNCHRONICZNE: fs.readFile(ścieżka do pliku, "utf-8", callback);
+- ODCZYTYWANIE SYNCHRONICZNE: const plik = fs.readFileSync(ścieżka do pliku); console.log(plik.toString("utf-8"));
+- ODCZYTYWANIE ZA POMOCĄ STREMÓW: .createReadStream(ścieżka do pliku, {obiekt konfiguracyjny do odkodowywania});
 
 
 ## :rocket: Technologies ##
@@ -64,7 +87,6 @@ process.stdout.write("Hello world");
 The following tools were used in this project:
 
 - [Node.js](https://nodejs.org/en/)
-- [Node.js]
 
 ## :white_check_mark: Requirements ##
 
