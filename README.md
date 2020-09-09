@@ -12,50 +12,59 @@
 
 <!-- Status -->
 
-<!-- <h4 align="center"> 
+<!-- <h4 align="center">
 	🚧  Kurs Node Udemy 🚀 Under construction...  🚧
-</h4> 
+</h4>
 -->
+
 TO REPOZYTORIUM JEST DO UŻYTKU PRYWATNEGO
+
 <hr>
 
-## :dart: About ##
+## :dart: About
 
 KURS UDEMY<br>
 <a href="https://www.udemy.com/course/kurs-nodejs-w-praktyce/learn/lecture/11811986?start=300#content">NodeJS - poznaj podstawy back-endu i zostań Full Stackem</a><br>
 Autor eduweb.pl
 
-## :sparkles: Features ##
+## :sparkles: Features
 
-:heavy_check_mark: <h3>katalog 06 ZDARZENIA</h3>
+🌸 :cherry_blossom:🌸 :cherry_blossom:🌸 :cherry_blossom:<h3>katalog 06 ZDARZENIA</h3>🌸 :cherry_blossom:🌸 :cherry_blossom:🌸 :cherry_blossom:
+
 - Tworzenie zdarzeń
 - Wywoływanie zdarzeń
 - Tworzenie klas które pobierają cos z internetu (API) i przesyłają dalej
 - Event Emitter
 
 :heavy_check_mark: <h3>katalog 07 BUFFER</h3>
+
 - Bufor który przechowuje określoną liczbę bajtów, surowych danych binarnych
 - Nie trzeba go importować
 - Służy do kodowania znaków np polskich
 
 :heavy_check_mark: <h3>katalog 08 STREAM</h3>
+
 - jest to pewnego rodzaju klasa napisana w Node.js;
 - jego zadaniem jest ograniczenie zużycia pamięci;
 - dziedziczy z modułów EventEmitter;>
 - rodzaje streemów:
--- odczytywalny (readable);
--- odczytywalno zapisywalny (duplex);
--- transformacyjny (transform) - dane wchodzą,  są zmieniane i wychodza nowe dane;
--- zapisywalny (writeable);
+  -- odczytywalny (readable);
+  -- odczytywalno zapisywalny (duplex);
+  -- transformacyjny (transform) - dane wchodzą, są zmieniane i wychodza nowe dane;
+  -- zapisywalny (writeable);
+
 ```
 process.stdout.write("Hello world");
 ```
+
 :heavy_check_mark: <h3>katalog 09 PROCES</h3>
+
 - zabijanie procesu w node;
 - process.pid;
 - uruchamianie pliku index.js bez REPLA;
 
 :heavy_check_mark: <h3>katalog 10 READLiNE</h3>
+
 - czyszczenie interfejsu
 - czyszczenie lini
 - przesuwanie kursora
@@ -64,6 +73,7 @@ process.stdout.write("Hello world");
 - program losowanie nagród z tablicy
 
 :heavy_check_mark: <h3>katalog 11 ODCZYTYWANIE INFORMACJI O PLIKACH</h3>
+
 - fs.exist() - czy dany plik istnieje
 - fs.stat() - czy dany plik istnieje
 - path.join() - łączenie ścieżki w string
@@ -76,26 +86,45 @@ process.stdout.write("Hello world");
 - stats.isDirectory - (boolean) czy folder istnieje
 
 :heavy_check_mark: <h3>katalog 12 ODCZYTYWANIE PLIKÓW</h3>
+
 - .toString("utf-8") - metoda do odkodowywania buffera na string
 - ODCZYTYWANIE ASYNCHRONICZNE: fs.readFile(ścieżka do pliku, "utf-8", callback);
 - ODCZYTYWANIE SYNCHRONICZNE: const plik = fs.readFileSync(ścieżka do pliku); console.log(plik.toString("utf-8"));
 - ODCZYTYWANIE ZA POMOCĄ STREMÓW: .createReadStream(ścieżka do pliku, {obiekt konfiguracyjny do odkodowywania});
 
+:heavy_check_mark: <h3>katalog 13 ODCZYTYWANIE PLIKÓW</h3>
 
-## :rocket: Technologies ##
+- fs.mkdir() - tworzenie katalogu
+- fs.writeFile() - tworzenie pliku wraz z treścią
+- fs.appendFile() - tworzenie pliku wraz z treścią lub nadpisywanie pliku
+- fs.mkdtemp() - tworzenie katalogu za każdym razem o innej nazwie
+- fs.mkdtempSync() - tworzenie katalogu za każdym razem o innej nazwie, metoda synchroniczna
+- .write() nadpisywanie pliku
+- .end() nadpisywanie i zamykanie pliku
+- .on("finish", callback) kopiowanie treści i wywołanie czegoś w callback
+- lorem1.pipe(lorem2) - zapisywanie skopiowanego tekstu z pliku lorem1 do lorem2 (lorem1 i 2 są streamami)
+
+:heavy_check_mark: <h3>katalog 14 ODCZYTYWANIE PLIKÓW</h3>
+
+- fs.rename() zmiana nazwy pliku
+- funkcja(moduł) własna do przenoszenia pliku do innego folderu
+
+## :rocket: Technologies
 
 The following tools were used in this project:
+
 - [Node.js](https://nodejs.org/en/)
 
-## :white_check_mark: Requirements ##
+## :white_check_mark: Requirements
 
 Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) and [Node](https://nodejs.org/en/) installed.
 
-## :checkered_flag: Starting ##
+## :checkered_flag: Starting
 
 ```bash
 # Clone this project
 $ git clone https://github.com/bialka104b/kurs-node-udemy
 
 ```
+
 <a href="#top">Back to top</a>
