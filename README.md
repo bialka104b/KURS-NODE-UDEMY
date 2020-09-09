@@ -27,18 +27,18 @@ Autor eduweb.pl
 
 ## :sparkles: Features ##
 
-:heavy_check_mark: katalog 06 ZDARZENIA;
+:heavy_check_mark: <h3>katalog 06 ZDARZENIA</h3>
 - Tworzenie zdarzeń
 - Wywoływanie zdarzeń
 - Tworzenie klas które pobierają cos z internetu (API) i przesyłają dalej
 - Event Emitter
 
-:heavy_check_mark: katalog 07 BUFFER;
+:heavy_check_mark: <h3>katalog 07 BUFFER</h3>
 - Bufor który przechowuje określoną liczbę bajtów, surowych danych binarnych
 - Nie trzeba go importować
 - Służy do kodowania znaków np polskich
 
-:heavy_check_mark: katalog 08 STREAM;
+:heavy_check_mark: <h3>katalog 08 STREAM</h3>
 - jest to pewnego rodzaju klasa napisana w Node.js;
 - jego zadaniem jest ograniczenie zużycia pamięci;
 - dziedziczy z modułów EventEmitter;>
@@ -50,12 +50,12 @@ Autor eduweb.pl
 ```
 process.stdout.write("Hello world");
 ```
-:heavy_check_mark: katalog 09 PROCES;
+:heavy_check_mark: <h3>katalog 09 PROCES</h3>
 - zabijanie procesu w node;
 - process.pid;
 - uruchamianie pliku index.js bez REPLA;
 
-:heavy_check_mark: katalog 10 READLiNE;
+:heavy_check_mark: <h3>katalog 10 READLiNE</h3>
 - czyszczenie interfejsu
 - czyszczenie lini
 - przesuwanie kursora
@@ -63,7 +63,7 @@ process.stdout.write("Hello world");
 - .close
 - program losowanie nagród z tablicy
 
-:heavy_check_mark: katalog 11 ODCZYTYWANIE INFORMACJI O PLIKACH;
+:heavy_check_mark: <h3>katalog 11 ODCZYTYWANIE INFORMACJI O PLIKACH</h3>
 - fs.exist() - czy dany plik istnieje
 - fs.stat() - czy dany plik istnieje
 - path.join() - łączenie ścieżki w string
@@ -75,7 +75,7 @@ process.stdout.write("Hello world");
 - stats.isFile - (boolean) czy coś jest plikiem, czy plik istnieje
 - stats.isDirectory - (boolean) czy folder istnieje
 
-:heavy_check_mark: katalog 12 ODCZYTYWANIE PLIKÓW;
+:heavy_check_mark: <h3>katalog 12 ODCZYTYWANIE PLIKÓW</h3>
 - .toString("utf-8") - metoda do odkodowywania buffera na string
 - ODCZYTYWANIE ASYNCHRONICZNE: fs.readFile(ścieżka do pliku, "utf-8", callback);
 - ODCZYTYWANIE SYNCHRONICZNE: const plik = fs.readFileSync(ścieżka do pliku); console.log(plik.toString("utf-8"));
@@ -85,7 +85,6 @@ process.stdout.write("Hello world");
 ## :rocket: Technologies ##
 
 The following tools were used in this project:
-
 - [Node.js](https://nodejs.org/en/)
 
 ## :white_check_mark: Requirements ##
