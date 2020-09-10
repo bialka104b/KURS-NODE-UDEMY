@@ -5,7 +5,7 @@
 </div>
 <style> 
 
-g-emoji.style{vertical-align:0!importnant;}
+g-emoji{vertical-align:0!importnant;}
 </style>
 <h1 align="center">Kurs Node Udemy</h1>
 
