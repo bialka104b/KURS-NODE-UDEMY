@@ -4,9 +4,8 @@
   <!-- <a href="https://kursnodeudemy.netlify.app">Demo</a> -->
 </div>
 <style> 
-element.style {
-}
-g-emoji{vertical-align:0!importnant;}
+
+g-emoji.style{vertical-align:0!importnant;}
 </style>
 <h1 align="center">Kurs Node Udemy</h1>
 
