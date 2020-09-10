@@ -29,7 +29,7 @@ Autor eduweb.pl
 
 ## :sparkles: Features
 
-<h3>katalog 06 ZDARZENIA</h3>:turtle:
+<span><h3>katalog 06 ZDARZENIA</h3>:turtle:</span>
 - Tworzenie zdarzeń
 - Wywoływanie zdarzeń
 - Tworzenie klas które pobierają cos z internetu (API) i przesyłają dalej
