@@ -60,7 +60,6 @@ process.stdout.write("Hello world");
 - uruchamianie pliku index.js bez REPLA;
 
 :cow2: <h3>katalog 10 READLiNE</h3>
-
 - czyszczenie interfejsu
 - czyszczenie lini
 - przesuwanie kursora
@@ -69,7 +68,6 @@ process.stdout.write("Hello world");
 - program losowanie nagród z tablicy
 
 :bird: <h3>katalog 11 ODCZYTYWANIE INFORMACJI O PLIKACH</h3>
-
 - fs.exist() - czy dany plik istnieje
 - fs.stat() - czy dany plik istnieje
 - path.join() - łączenie ścieżki w string
@@ -89,7 +87,6 @@ process.stdout.write("Hello world");
 - ODCZYTYWANIE ZA POMOCĄ STREMÓW: .createReadStream(ścieżka do pliku, {obiekt konfiguracyjny do odkodowywania});
 
 :monkey_face: <h3>katalog 13 ODCZYTYWANIE PLIKÓW</h3>
-
 - fs.mkdir() - tworzenie katalogu
 - fs.writeFile() - tworzenie pliku wraz z treścią
 - fs.appendFile() - tworzenie pliku wraz z treścią lub nadpisywanie pliku
@@ -101,7 +98,6 @@ process.stdout.write("Hello world");
 - lorem1.pipe(lorem2) - zapisywanie skopiowanego tekstu z pliku lorem1 do lorem2 (lorem1 i 2 są streamami)
 
 :racehourse: <h3>katalog 14 ODCZYTYWANIE PLIKÓW</h3>
-
 - fs.rename() zmiana nazwy pliku
 - funkcja(moduł) własna do przenoszenia pliku do innego folderu
 
