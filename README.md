@@ -47,9 +47,9 @@ Autor eduweb.pl
 - jego zadaniem jest ograniczenie zużycia pamięci;
 - dziedziczy z modułów EventEmitter;>
 - rodzaje streemów:
-  -- odczytywalny (readable);
-  -- odczytywalno zapisywalny (duplex);
-  -- transformacyjny (transform) - dane wchodzą, są zmieniane i wychodza nowe dane;
+  -- odczytywalny (readable);<br>
+  -- odczytywalno zapisywalny (duplex);<br>
+  -- transformacyjny (transform) - dane wchodzą, są zmieniane i wychodza nowe dane;<br>
   -- zapisywalny (writeable);
 
 ```
@@ -91,7 +91,7 @@ process.stdout.write("Hello world");
 - ODCZYTYWANIE SYNCHRONICZNE: const plik = fs.readFileSync(ścieżka do pliku); console.log(plik.toString("utf-8"));
 - ODCZYTYWANIE ZA POMOCĄ STREMÓW: .createReadStream(ścieżka do pliku, {obiekt konfiguracyjny do odkodowywania})
 
-<h3><span>:monkey_face: katalog 13 ODCZYTYWANIE PLIKÓW :monkey_face:</span></h3>
+<h3><span>:monkey_face: katalog 13 TWORZENIE KATALOGÓW I PLIKÓW :monkey_face:</span></h3>
 
 - fs.mkdir() - tworzenie katalogu
 - fs.writeFile() - tworzenie pliku wraz z treścią
@@ -103,7 +103,7 @@ process.stdout.write("Hello world");
 - .on("finish", callback) kopiowanie treści i wywołanie czegoś w callback
 - lorem1.pipe(lorem2) - zapisywanie skopiowanego tekstu z pliku lorem1 do lorem2 (lorem1 i 2 są streamami)
 
-<h3><span>:racehourse: katalog 14 ODCZYTYWANIE PLIKÓW :racehourse:</span></h3>
+<h3><span>:sheep: katalog 14 ODCZYTYWANIE PLIKÓW :sheep:</span></h3>
 
 - fs.rename() zmiana nazwy pliku
 - funkcja(moduł) własna do przenoszenia pliku do innego folderu
@@ -116,12 +116,23 @@ process.stdout.write("Hello world");
 - fs.unlink() - metoda do usuwania pliku
 - BŁĄD "ENOTEMPTY" - chcemy usunąc katalog który nie jest pusty
 
-<h3><span>:racehourse: katalog 16 ODCZYTYWANIE PLIKÓW :racehourse:</span></h3>
+<h3><span>:horse: katalog 16 ODCZYTYWANIE PLIKÓW :horse:</span></h3>
 
 - fs.wach() - metoda która nasłuchuje zmiane w treściach plików lub nazwach plików, wykona się za każdym razem gdy nastapi zmiana
 - fs.readFile() - odczytywanie pliku
 - fs.writeFile() - zapisywanie danych do pliku
 - .toUpperCase() - zamienia małe litery tekstu na duże
+
+<h3><span>:baby_chick: katalog 17 PROJECT GRUPOWA ZMIANA NAZW PLIKÓW CZ.1 :baby_chick:</span></h3>
+<h3><span>:baby_chick: katalog 18 PROJECT GRUPOWA ZMIANA NAZW PLIKÓW CZ.2 :baby_chick:</span></h3>
+
+- .slice(2) - ocinanie dwóch pirwszych elementów tablicy lub stringu
+- .get() - metoda do pobierania argumentu
+- .validate([]) - metoda do sprawdzenia czy wszystkie argumentyzostały podane
+- .indexOf() - sprawdzenie pod jakim indeksem znajduje się element w tablicy
+- module.export = {} sposób exportowania kilku funkcji w jednym obiekcie
+- .filter() - metoda filtruje tablice wg podanego argumentu i zwraca nową odfiltrowaną tablice
+- .extname() - metoda zwraca rozszerzenie pliku o podanej ścieżce
 
 ## :rocket: Technologies
 
