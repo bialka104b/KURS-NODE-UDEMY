@@ -1,0 +1,11 @@
+To jest treść pliku, która zostanie zamieniona na wielkie litery.
+
+Dodałem nową linijkę.
+......cbbbb
+ccc
+bbcccccc
+bbbbccc
+vvv
+kkk
+hhh
+llll
