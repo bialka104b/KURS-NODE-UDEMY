@@ -62,8 +62,8 @@ process.stdout.write("Hello world");
 - ```process.pid;```
 - uruchamianie pliku index.js bez REPLA
 
-<a href="#top">Back to top</a>
-<h3 id="10"><span>:cow2: katalog 10 READLiNE :cow2:</span></h3>
+<a id="10" href="#top">Back to top</a>
+<h3><span>:cow2: katalog 10 READLiNE :cow2:</span></h3>
 
 - czyszczenie interfejsu
 - czyszczenie lini
@@ -85,8 +85,8 @@ process.stdout.write("Hello world");
 - ```stats.isFile``` - (boolean) czy coś jest plikiem, czy plik istnieje
 - ```stats.isDirectory``` - (boolean) czy folder istnieje
 
-<a href="#10">Back to 10</a>
-<h3 id="12"><span>:elephant: katalog 12 ODCZYTYWANIE PLIKÓW :elephant:</span></h3>
+<a id="12" href="#10">Back to 10</a>
+<h3><span>:elephant: katalog 12 ODCZYTYWANIE PLIKÓW :elephant:</span></h3>
 
 - ```.toString("utf-8")``` - metoda do odkodowywania buffera na string
 - ODCZYTYWANIE ASYNCHRONICZNE: ```fs.readFile(ścieżka do pliku, "utf-8", callback);```
@@ -105,8 +105,8 @@ process.stdout.write("Hello world");
 - ```.on("finish", callback)``` kopiowanie treści i wywołanie czegoś w callback
 - ```lorem1.pipe(lorem2)``` - zapisywanie skopiowanego tekstu z pliku lorem1 do lorem2 (lorem1 i 2 są streamami)
 
-<a href="#12">Back to 12</a>
-<h3 id="14"><span>:sheep: katalog 14 ODCZYTYWANIE PLIKÓW :sheep:</span></h3>
+<a id="14" href="#12">Back to 12</a>
+<h3><span>:sheep: katalog 14 ODCZYTYWANIE PLIKÓW :sheep:</span></h3>
 
 - ```fs.rename()``` zmiana nazwy pliku
 - funkcja(moduł) własna do przenoszenia pliku do innego folderu
@@ -119,8 +119,8 @@ process.stdout.write("Hello world");
 - ```fs.unlink()``` - metoda do usuwania pliku
 - BŁĄD ```"ENOTEMPTY"``` - chcemy usunąc katalog który nie jest pusty
 
-<a href="#14">Back to 14</a>
-<h3 id="16"><span>:horse: katalog 16 ODCZYTYWANIE PLIKÓW :horse:</span></h3>
+<a id="16" href="#14">Back to 14</a>
+<h3><span>:horse: katalog 16 ODCZYTYWANIE PLIKÓW :horse:</span></h3>
 
 - ```fs.wach()``` - metoda która nasłuchuje zmiane w treściach plików lub nazwach plików, wykona się za każdym razem gdy nastapi zmiana
 - ```fs.readFile()``` - odczytywanie pliku
@@ -137,8 +137,8 @@ process.stdout.write("Hello world");
 - ```.filter()``` - metoda filtruje tablice wg podanego argumentu i zwraca nową odfiltrowaną tablice
 - ```.extname()``` - metoda zwraca rozszerzenie pliku o podanej ścieżce
 
-<a href="#16">Back to 16</a>
-<h3 id="18"><span>:whale: katalog 18 PROJECT GRUPOWA ZMIANA NAZW PLIKÓW CZ.2 :whale:</span></h3>
+<a id="18" href="#16">Back to 16</a>
+<h3><span>:whale: katalog 18 PROJECT GRUPOWA ZMIANA NAZW PLIKÓW CZ.2 :whale:</span></h3>
 
 - ```validateArgs(args){}``` funkcje do walidowania czy wszystkie argumenty zostały podane
 - ```.replace()``` metoda do zamiany liter lub znaków
@@ -159,8 +159,8 @@ process.stdout.write("Hello world");
 - ```net.connect({port: 8080})``` podpięcie nowego klienta do serwera o porcie 8080
 - ```.on("data", (data)=>{})``` zdarzenie on data do odbierania danych przez klienta lub serwer
 
-<a href="#18">Back to 18</a>
-<h3 id="20"><span>:ant: katalog 20 SERWER HTTP :ant:</span></h3>
+<a id="20" href="#18">Back to 18</a>
+<h3><span>:ant: katalog 20 SERWER HTTP :ant:</span></h3>
 
 - ```http.createServer((request, response)=> {})``` stworzenie serwera HTTP
 - ```.writeHead(status 200, Content Type)``` metoda do wysyłania czegoś na serwer HTTP w postaci html, tekstu lub obrazu
@@ -170,6 +170,8 @@ process.stdout.write("Hello world");
 - ```request.url``` końcówka strony, podstrona
 - ```request.headers ``` nagłówki request
 - ```request.method``` metody HTTP np GET POST DELETE
+
+<h3><span>:ant: katalog 21 SERWOWANIE STATYCZNYCH PLIKÓW :ant:</span></h3>
 
 
 ## :rocket: Technologies
