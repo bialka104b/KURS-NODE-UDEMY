@@ -1,0 +1,22 @@
+DOKUMENTACJA NODEJS.ORG
+-> HTTP -> Class: http.IncomingMessage tyczy się REQUEST-ów zapytań
+-> HTTP -> Class: http.ServerResponsee tyczy się RESPONSE-ów odpowiedzi
+
+RESPONSE I REQUEST DO SPRAWDZENIA W PRZEGLĄDARCE:
+Zbadaj -> Network -> zaznacz All -> zaznacz localhost -> 
+->i tam masz:
+1. general -> Status Code(200, 404, 403)
+2.response -> Connection (nagłówki odczytywane przez przeglądarke)
+3. request () wszystko pogrubione to domyślne nagłówki z których przeglądarka korzysta
+
+//"Content-Type" znajdziesz w przeglądarce pod Nagłówkiem Accept takie jak:
+text/html,
+application/xhtml+xml,
+application/xml;q=0.9,
+image/avif,
+image/webp,
+image/apng,
+*/*;q=0.8,
+application/signed-exchange;v=b3;q=0.9
+https://pl.wikipedia.org/wiki/Typ_MIME link z listą MIME typów
+
