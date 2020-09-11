@@ -1,0 +1,16 @@
+// MODUŁ NET odpowiedzialny za komunikacje sieciową w NODE
+//W TEJ LEKCJI TWORZYMY SERWER NISKIEGO POZIOMU TCP IP
+
+WŁĄCZANIE TELNETU NA WINDOWS NA POTRZEBY KURSU
+1. Otwórz panel sterowania
+2. W wyszukiwarce wpisz fraze "programy i funkcje" i kliknij w to "Włącz lub wyłącz funkcje systemu windows"
+3. Odszukaj w wyskakującym okienku "Klient Telnet", zaznacz ta opcje i kliknij OK
+4. Przejdź do cmd, uruchom jako administrator
+5. wpisz słowo telnet. Powinno pisac zapraszamy....
+7. wpisz słowo "o 127.0.0.1 8080" aby uruchomic serwer w terminalu cmd i daj enter, po połączeniu pojawi sie hello world
+8. Aby z serwera wyjść wpisz "CTRL+]"
+9. Aby poprawnie wszystko działało w cmd, nasz node index musi zostać uruchomiony w konsoli VSC
+10. dopiero po uruchomieniu pliku poleceniem "node index", wpisujemy w cmd "o 127.0.0.1 8080" i tam wykonuje sie nasz napisany program
+11. Aby wyjść z trybu telnet wciśnij "q"
+
+//WŁĄCZ SOBIE TELNET ZANIM ZACZNIESZ

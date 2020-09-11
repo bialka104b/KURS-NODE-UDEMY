@@ -124,7 +124,6 @@ process.stdout.write("Hello world");
 - .toUpperCase() - zamienia małe litery tekstu na duże
 
 <h3><span>:baby_chick: katalog 17 PROJECT GRUPOWA ZMIANA NAZW PLIKÓW CZ.1 :baby_chick:</span></h3>
-<h3><span>:baby_chick: katalog 18 PROJECT GRUPOWA ZMIANA NAZW PLIKÓW CZ.2 :baby_chick:</span></h3>
 
 - .slice(2) - ocinanie dwóch pirwszych elementów tablicy lub stringu
 - .get() - metoda do pobierania argumentu
@@ -133,6 +132,29 @@ process.stdout.write("Hello world");
 - module.export = {} sposób exportowania kilku funkcji w jednym obiekcie
 - .filter() - metoda filtruje tablice wg podanego argumentu i zwraca nową odfiltrowaną tablice
 - .extname() - metoda zwraca rozszerzenie pliku o podanej ścieżce
+
+<h3><span>:whale: katalog 18 PROJECT GRUPOWA ZMIANA NAZW PLIKÓW CZ.2 :whale:</span></h3>
+
+- validateArgs(args){} //funkcje do walidowania czy wszystkie argumenty zostały podane
+- .replace() metoda do zamiany liter lub znaków
+- .repeat(ile razy powtórzyć) funkcja do powtarzania znaków
+- .birthtime.getTime() zwraca liczbe milisekund od momentu utworzenia pliku
+- funkcjonalność: grupowa zamiana nazw plików za pomocą komendy z terminala (funkcje newFileName validFiles sortByDate)
+- fs.statSync(nazwa i ścieżka pliku) synchgroniczne odczytywanie danych z pliku
+
+<h3><span>:turtle: katalog 19 PROSTY SERWER I KLIENt TCP :turtle:</span></h3>
+
+- TWORZYMY SERWER NISKIEGO POZIOMU TCP IP
+- MODUŁ NET odpowiedzialny za komunikacje sieciową w NODE
+- net.createServer(callback) tworzenie serwera
+- setInterval(()=> {},1000) wykonywanie funkcji co 1 sekunde
+- clearInterval() czyszczenie interval aby zatrzymac czas wykonywania się funkcji callback
+- .end() kończenie działania serwera
+- server.listen(8080, ()=> {}) uruchomienie serwera na porcie 8080
+- net.connect({port: 8080}) podpięcie nowego klienta do serwera o porcie 8080
+- .on("data", (data)=>{}) zdarzenie on data do odbierania danych przez klienta lub serwer
+
+
 
 ## :rocket: Technologies
 
