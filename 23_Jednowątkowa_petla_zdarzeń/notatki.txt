@@ -1,0 +1,2 @@
+SPRAWDZENIE CZASU WYKONYWANIA SIĘ FUNKCJI W PLIKU SERVER.JS
+Zakładka Network -> kliknij proces kill=1 -> zakładka Timing

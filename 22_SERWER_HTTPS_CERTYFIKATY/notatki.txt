@@ -1,0 +1,5 @@
+W TEJ LEKCJI OMAWIANE SĄ KLUCZE (CERTYFIKATY)
+https://www.selfsignedcertificate.com/
+wpisz localhost -> kliknij Generate -> pobierz oba pliki -> zapisz je w katalogu CERTYFIKATY
+
+ABY STRONA DZIAŁAŁA MUSISZ URUCHOMIĆ STRONE NA localhost Z PRZEDROSTKIEM https
