@@ -184,7 +184,7 @@ process.stdout.write("Hello world");
 - `fs.createReadStream(ścieżka do pliku)` metoda zwraca strema
 - `file.pipe(response)` za pomoca pipe odczytujemy(kopiujemy) stream do naszego response
 
-<a id="22" href="#18">Back to 20</a>
+<a id="22" href="#20">Back to 20</a>
 
 <h3><span>:whale: katalog 22 SERWER HTTPS :whale:</span></h3>
 
@@ -200,7 +200,7 @@ process.stdout.write("Hello world");
 - MODUŁ `querystring`, wykorzytsanie: .query
 - `.parse()` parsowanie danych
 
-<a id="24" href="#18">Back to 22</a>
+<a id="24" href="#22">Back to 22</a>
 
 <h3><span>:bird: katalog 24 INSTALACJA MODUŁÓW :bird:</span></h3>
 
@@ -219,7 +219,7 @@ process.stdout.write("Hello world");
   -- `npm root -g` sprawdzamy instalowane GLOBALNIE
   -- `npm root` sprawdzamy instalowane lokalnie
 
-<a id="26" href="#18">Back to 24</a>
+<a id="26" href="#24">Back to 24</a>
 
 <h3><span>:monkey_face: katalog 26 AKTUALIZACJA MODUŁÓW :monkey_face:</span></h3>
 
@@ -239,7 +239,33 @@ process.stdout.write("Hello world");
 - `.removeHeader("X-Powered-By")` METODA DO WYŁĄCZANIA NAGŁÓWKÓW
 - `response.send("Hello World!")` METODA DZIAŁAJĄCA PODOBNIE JAK .WRITE() W expressJS
 
-<a id="28" href="#18">Back to 26</a>
+<a id="28" href="#26">Back to 26</a>
+
+<h3><span>:horse: katalog 28 SERWOWANIE STATYCZNYCH PLIKÓW W EXPRESS :horse:</span></h3>
+
+- EXPRESS STATIC DOKUMENTACJA http://expressjs.com/en/5x/api.html#express.static
+- `express.static("public")` serwowanie statycznych plików za pomoca express
+
+<h3><span>:baby_chick: katalog 29 ROUTING ZAPYTAŃ W EXPRESS JS :baby_chick:</span></h3>
+
+- W JAKI SPOSÓB KORZYSTAĆ Z ROUTINGU CZYLI PRZYPISYWANIA ODPOWIEDNICH FUNKCJI DO ODPOWIEDNICH ŚCIEŻEK
+- manipulacja ścieżkami i parametrami z jakąś datą i id http://localhost:8080/blog/2020-01-01/22?search=text
+- wyświetlenie na stronie JSONA a w nim {search:"text"}
+
+<h3><span>:whale: katalog 30 KORZYSTANIE Z SZABLONÓW W EXPRESS JS :whale:</span></h3>
+
+- JAK DZIAŁAJĄ handlebars
+- łączenie wielu kontentów w jeden za pomocą plik.handlebars
+- renderowanie plików handlebar do naszej przeglądarki
+- SKŁADNIA PODOBNA DO HTML
+- instalacja modułu `express-handlebars`
+
+<h3><span>:turtle: katalog 31 UŻYCIE MIDDLEWARE W EXPRESS JS :turtle:</span></h3>
+
+- Czym w EXPRESS SĄ MIDDLEWARE?
+- moduł `serve-index` do serwowania obrazków na stronie
+- obsługa serwera z dostępem administratora (alternatywa dla metody POST)
+
 
 ## :rocket: Technologies
 

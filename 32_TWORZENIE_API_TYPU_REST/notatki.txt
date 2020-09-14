@@ -1,0 +1,15 @@
+
+
+INSTALACJA EXPRESSJS
+npm install express --save
+npm install body-parser
+npm install express-handlebars
+
+INSTALACJA GLOBALNA NODEMON: "npm init"  a następnie "npm i -g nodemon"
+URUCHOMIENIE PLIKU ZA POMOCĄ NODEMON: 
+1. do pliku package.json dodaj:
+"scripts": {
+    "server": "nodemon index"
+},
+2. a nastepnie zapisz plik
+3.w konsoli wpisz teraz "npm run server"
