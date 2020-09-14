@@ -1,0 +1,10 @@
+INSTALACJA EXPRESS
+npm init
+npm install express --save
+
+DOKUMENTACJA EXPRESS
+https://expressjs.com/en/4x/api.html
+
+TABELA Z RÓŻNYMI RZECZAMI KTÓRE MOŻNA WYŁĄCZAĆ ZA POMOCĄ METODY .disabled("")
+WYŁĄCZANIE NAGŁÓWKÓW
+http://expressjs.com/en/5x/api.html#app.settings.table

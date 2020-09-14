@@ -1,0 +1,20 @@
+MODUŁ NODEMON DO RESTARTOWANIA SERWERA (WCZYTYWANIA PLIKÓW NA NOWO)
+INSTALACJA GLOBALNA NODEMON: "npm init"  a następnie "npm i -g nodemon"
+URUCHOMIENIE PLIKU ZA POMOCĄ NODEMON: 
+1. do pliku package.json dodaj:
+"scripts": {
+    "server": "nodemon index"
+},
+2. a nastepnie zapisz plik
+3.w konsoli wpisz teraz "npm run server"
+4. NA FILMIE NIESTETY URUCHOMIENIE WYGLĄDA INACZEJ PONIEWAŻ GOŚĆ PRACUJE NA MACU
+
+MODUŁ JSHINT do WALIDACJI PLIKU JSHINT
+- jeśli plik zawiera błędy do konsola nam zwróci te błędy
+- inatalacja "npm i jshint"
+- wywołanie jshint nazwa pliku
+-- nie udało mi sie tego uruchomić
+
+JAK SPRAWDZIĆ GDZIE GLOBALNIE SĄ INSTALOWANE NASZE MODUŁY?
+"npm root -g" sprawdzamy instalowane GLOBALNIE
+"npm root" sprawdzamy instalowane lokalnie

@@ -1,0 +1,13 @@
+{
+  "name": "25_instalacja_globalna_modulow",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "server": "nodemon index"
+  },
+  "author": "",
+  "license": "ISC"
+}

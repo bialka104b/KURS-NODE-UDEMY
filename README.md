@@ -184,6 +184,8 @@ process.stdout.write("Hello world");
 - `fs.createReadStream(ścieżka do pliku)` metoda zwraca strema
 - `file.pipe(response)` za pomoca pipe odczytujemy(kopiujemy) stream do naszego response
 
+<a id="22" href="#18">Back to 20</a>
+
 <h3><span>:whale: katalog 22 SERWER HTTPS :whale:</span></h3>
 
 - GENEROWANIE DARMOWYCH CERTYFIKATÓW https://www.selfsignedcertificate.com/
@@ -198,13 +200,46 @@ process.stdout.write("Hello world");
 - MODUŁ `querystring`, wykorzytsanie: .query
 - `.parse()` parsowanie danych
 
-<h3><span>:cow2: katalog 24 INSTALACJA MODUŁÓW :cow2:</span></h3>
+<a id="24" href="#18">Back to 22</a>
+
+<h3><span>:bird: katalog 24 INSTALACJA MODUŁÓW :bird:</span></h3>
 
 - zainicjalizowano npm `npm init`
 - zainstalowano paczke DEL ` npm i del`
 - MODUŁ DEL SŁUŻY DO USUWANIA KATALOGÓW I PLIKOW
 - INSTALACJA DEL JAKO ZALEŻNOŚĆ DEPENDENCIES Z WYBRANĄ WERSJĄ `npm i del@2.2.0 --save`
 
+<h3><span>:elephant: katalog 25 INSTALACJA GLOBALNA MODUŁÓW :elephant:</span></h3>
+
+- MODUŁ NODEMON DO RESTARTOWANIA SERWERA (WCZYTYWANIA PLIKÓW NA NOWO)
+- INSTALACJA GLOBALNA NODEMON: "npm init" a następnie "npm i -g nodemon"
+- URUCHOMIENIE PLIKU ZA POMOCĄ NODEMON - KONFIGURACJA package.json
+- MODUŁ JSHINT do WALIDACJI PLIKU(SPAWDZANIA BŁĘDÓW W PLIKU), INSTALACJA
+- JAK SPRAWDZIĆ GDZIE GLOBALNIE SĄ INSTALOWANE NASZE MODUŁY?
+  -- `npm root -g` sprawdzamy instalowane GLOBALNIE
+  -- `npm root` sprawdzamy instalowane lokalnie
+
+<a id="26" href="#18">Back to 24</a>
+
+<h3><span>:monkey_face: katalog 26 AKTUALIZACJA MODUŁÓW :monkey_face:</span></h3>
+
+- `npm install del@5.0.0 --save (DEPENDECIES)` INSTALACJA MODUŁU DEL W WERSJI 5.0.0
+- `npm update --save` AKTUALIZACJA ZAINSTALOWANYCH WERSJI JEŚLI ZMIENIA SIĘ TYLKO 2 I 3 NUMER WERSJI
+- `npm update -g --save` AKTUALIZACJA GLOBALNA
+- `npm outdated` SPRAWDZENIE OBECNIE NIEZAKTUALIZOWANYCH WERSJI
+- `npm outdated -g` SPRAWDZENIE GLOBALNE
+
+<h3><span>:sheep: katalog 27 INSTALACJA EXPRESS I PROSTY SERWER EXPRESSJS :sheep:</span></h3>
+
+- https://expressjs.com/en/4x/api.html DOKUMENTACJA EXPRESS
+- INSTALACJA:
+  -- `npm init` oraz `npm install express --save`
+- WYŁĄCZANIE NAGŁÓWKÓW W ZAKŁADCE NETWORK NP. X-Powered-By: Express
+- `.disable("x-powered-by")` METODA DO WYŁĄCZANIA RÓZNYCH OPCJI
+- `.removeHeader("X-Powered-By")` METODA DO WYŁĄCZANIA NAGŁÓWKÓW
+- `response.send("Hello World!")` METODA DZIAŁAJĄCA PODOBNIE JAK .WRITE() W expressJS
+
+<a id="28" href="#18">Back to 26</a>
 
 ## :rocket: Technologies
 

@@ -1,0 +1,18 @@
+INSTALUJE MODUŁ DEL W WERSJI 5.0.0
+npm install del@5.0.0 --save (DEPENDECIES)
+
+TERAZ CHCE ZAKTUAKIZOWAĆ WERSJE DO NOWSZEJ
+npm update --save (działa tylko w obrębnie danej głównej wersji, czyli pierwszej liczaby)
+Jeżeli pierwsza liczba się zmienia musimu zainstalować to normalnie npm install del@najnowsza wersja
+npm update -g --save
+
+SPRAWDZENIE OBECNEJ WERSJI
+npm outdated
+npm outdated -g //sprawdzenie globalne
+
+Current -  Obecnie zainstalowana
+Wanted - taka którą powinnyśmy mieć teraz na którą zadziała komenda npm update
+Lastet - najnowsza wersja - wymaga ręcznej instalacji
+_________________________________________________________
+Package  Current  Wanted  Latest  Location
+del        3.0.0   3.1.0   5.1.0  26_aktualizacja_modulow
