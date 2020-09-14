@@ -198,6 +198,14 @@ process.stdout.write("Hello world");
 - MODUŁ `querystring`, wykorzytsanie: .query
 - `.parse()` parsowanie danych
 
+<h3><span>:cow2: katalog 24 INSTALACJA MODUŁÓW :cow2:</span></h3>
+
+- zainicjalizowano npm `npm init`
+- zainstalowano paczke DEL ` npm i del`
+- MODUŁ DEL SŁUŻY DO USUWANIA KATALOGÓW I PLIKOW
+- INSTALACJA DEL JAKO ZALEŻNOŚĆ DEPENDENCIES Z WYBRANĄ WERSJĄ `npm i del@2.2.0 --save`
+
+
 ## :rocket: Technologies
 
 The following tools were used in this project:
