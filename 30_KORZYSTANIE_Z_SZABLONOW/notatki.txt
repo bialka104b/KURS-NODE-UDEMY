@@ -1,0 +1,20 @@
+JAK DZIAŁAJĄ handlebars
+PODOBNA SKŁADNIA DO HTMLA
+łączenie wielu kontentów w 1
+
+po uruchomieniu spróbuj wyświetlić
+http://localhost:8080/blog/2020-02-02/20
+http://localhost:8080/blog/2020-02-02
+http://localhost:8080
+
+INSTALACJA EXPRESSJS
+npm install express --save
+
+INSTALACJA GLOBALNA NODEMON: "npm init"  a następnie "npm i -g nodemon"
+URUCHOMIENIE PLIKU ZA POMOCĄ NODEMON: 
+1. do pliku package.json dodaj:
+"scripts": {
+    "server": "nodemon index"
+},
+2. a nastepnie zapisz plik
+3.w konsoli wpisz teraz "npm run server"
