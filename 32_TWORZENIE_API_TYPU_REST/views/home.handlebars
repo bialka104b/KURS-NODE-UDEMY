@@ -1,9 +1,11 @@
 <div class="page-header">
 
     <h2>{{ title }}</h2>
-    {{#if users}}
+    {{#if users}} {{!-- sprawdzam czy tutaj mamy jakąś tablice --}}
     <ul>
+    {{!--Jeżli tak to w ul chce to wygenerowac każde li za pomocą metody foreach  --}}
     {{#each users}}
+        {{!-- id name i last Name są pobierane z pliku usersDb.json  --}}
         <li data-id="{{ id }}">{{ name }} {{ lastName }}</li>
     {{/each}}
     </ul>

@@ -1,4 +1,43 @@
+APLIKACJA POSTMAN, dodatek do chroma - pozwalający na wysyłanie różnego rodzaju zapytań do przeglądarki, nie tylko GET, ale też PUT, DELETE, COPY, LINK, itd
+Otwórz tą apke -> wybierz GET -> wpisz adres url localhosta -> przyciśnij SEND -> dostaniesz wynik w jsonie tego co zostało przetworzone i sparsowane
+http://localhost:8080/api/users http://localhost:8080
 
+NASTĘPNIE W TEJ APCE WYKONAMY METODE PUT 
+Kliknij NEW -> REQUEST -> Kliknij create Colletion -> Wpisz name i description -> kliknij create i kliknij na utworzony folder -> daj save
+Potem w zakładce HEADERS jako Klucz wpisz Content-Type a value: "application/json"
+1.wybierz metode PUT
+2. W body wpisz obiekt json np { name: 'Natalia'}, 
+3. wpisz url np http://localhost:8080/api/user/3 i kliknij send. 
+4. Jeśli serwer jest uruchomiony to metoda put nam zwróci teraz 
+{
+    "id": 3,
+    "name": "Natalia", //podmieniony fragment
+    "lastName": "Janicki"
+} tekst zależy od tego jakie id było wpisane jako url
+
+METODA DELETE
+1. Wybierz metode DELETE2.
+2. Wpisz obiekt
+{
+    "id": 2,
+    "name": "Anna",
+    "lastName": "Nowak"
+} http://localhost:8080/api/user/2
+3.Wciśnij send, następnie zmień na metode Get i spróbój pobrac ten sam obiekt, zostanie zwrócona wartość null
+
+METODA POST
+1. Wybierz metode POST.
+2. Wpisz obiekt
+{
+    "name": "Anna",
+    "lastName": "Nowak"
+} http://localhost:8080/api/users
+3. Kliknij send. Zostanie zwrócone
+{
+    "name": "Anna",
+    "lastName": "Nowak",
+    "id": 6
+}
 
 INSTALACJA EXPRESSJS
 npm install express --save

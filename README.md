@@ -266,6 +266,14 @@ process.stdout.write("Hello world");
 - moduł `serve-index` do serwowania obrazków na stronie
 - obsługa serwera z dostępem administratora (alternatywa dla metody POST)
 
+<h3><span>:turtle: katalog 32TWORZENIE API TYPU REST W EXPRESS JS :turtle:</span></h3>
+
+- PROGRAM POSTMAN(dodatek do chroma) do symulowania metody GET PUT DELETE POST
+- w tej lekcji omawiane jest jak dopisywać uzytkowników do Jsona, robić zapytania o uzytkownika, kasować ich, aktualizować ich dane
+- dodatkowo są metody(funkcje) obsługujące wyszukiwanie użytkowników po id, aktualizowanie danych, kasowanie danych
+- jak napisać swoje własne routery
+- metoda render do renderowania strony  HTML
+- zastosowanie paczki body-parser do parsowania danych
 
 ## :rocket: Technologies
 
