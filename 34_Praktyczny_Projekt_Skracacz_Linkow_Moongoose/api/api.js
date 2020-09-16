@@ -5,7 +5,7 @@ const { connect } = require("mongoose");
 // const randomString = require("randomstring");
 const MongoClient = require("mongodb").MongoClient;
 const uri =
-  "mongodb+srv://marta:Sikorskiego45@martakulig.z0ca1.mongodb.net/marta?retryWrites=true&w=majority";
+  "mongodb+srv://marta:haslo@imienazwisko.z0ca1.mongodb.net/marta?retryWrites=true&w=majority";
 const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true});
 
 const DB_USER = "user";
