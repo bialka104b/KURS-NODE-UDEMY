@@ -1,0 +1,15 @@
+<div class="page-header">
+
+    <h2>{{ title }}</h2>
+    {{#if users}}
+    <ul>
+    {{#each users}}
+        {{!-- <li data-id="{{ id }}">{{ name }} {{ lastName }}</li>--}}
+        <li>
+            <a href="/user/{{_id}}">{{name}} {{lastName}}</a>
+        </li>
+    {{/each}}
+    </ul>
+    {{/if}}
+
+</div>

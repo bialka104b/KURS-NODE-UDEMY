@@ -1,0 +1,18 @@
+PODSTAWOWA INSTALACJA:
+"npm init"
+"npm i body-parser express express-handlebars"
+"npm i nodemon -g"
+"npm instal mongoose --save" //potrzebne do mongo
+
+URUCHOMIENIE
+"npm run server"
+
+MONGO DB
+https://www.mongodb.com/
+W filmie pokazane jest jak zakładać serwer za pomocą aws i mongo db, jednak layout mongo db róźni się od tego na filmie ale da się ogarnąć. Mongo stawiałam na AWS
+PLIK usersDB.json został skasowany, a jego dane są na serwerze mongoDb
+
+WSZYSTKIE WYKORZYSTANE W TYM KATALOGU METODY SĄ IDENTYCZNE CO W KATALOGU 32 JEDNAK TAK SKONFIGUROWANE ABY WYKORZYSTYWAĆ MONGO DB
+
+WAŻNE: OD około połowy filmu połączenie z bazą danych mi nie działało. Kod jest napisany dobrze ale mam wrażenie ż moongose nie jest już obługiwany online, trzeba by ściągnąć mongoose na komputer i pracować z nim lokalnie. Nie mniej jednak kod wydaje się być poprawnie napisany. Ja pracowałam na stronie https://cloud.mongodb.com/, zaś w filmie jest to pokazane na mlab który nie jest już dla nowych użytkowników wspierany.
+Interfejs mongo na tej stronie też się zmienił
