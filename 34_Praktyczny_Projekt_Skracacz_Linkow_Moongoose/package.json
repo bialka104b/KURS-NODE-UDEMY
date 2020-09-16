@@ -1,0 +1,18 @@
+{
+  "name": "34_praktyczny_projekt_skracacz_linkow_mongoose",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^3.6.2",
+    "mongoose": "^5.10.5",
+    "randomstring": "^1.1.5",
+    "valid-url": "^1.0.9"
+  }
+}

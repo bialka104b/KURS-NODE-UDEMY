@@ -1,0 +1,2 @@
+w tym projekcie nie udało mi się uruchomic bazy danych aby się z nią kominikować
+zastosowałam inną metode podłączenia się zalecaną przez mogodb ale po sprawdzeniu isConnect otrzymałam false więc połączenia nie było
