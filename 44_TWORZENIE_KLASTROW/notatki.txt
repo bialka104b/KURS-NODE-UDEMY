@@ -1,0 +1,5 @@
+MODUŁ CLUSTER z dokumentacji node
+MODUŁ OS z dokumentacji (sprawdzanie ile mamy dostępnej pamięci operacyjnej)
+
+W terminalu wpisz os.cpus() - zwróci to mi informacje o wszystkich rdzeniach procesora
+os.cpus().lenght ilość rdzeni procesora
