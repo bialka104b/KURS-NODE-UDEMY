@@ -1,0 +1,7 @@
+Wdrażanie aplikacji na VPS(VPN)
+instalacja aplikacji na serwerze i lokaknie
+instalacja narzędzi do deployowania(aktualizacji, wgrywania) aplikacji
+sposób na uruchomienie wersji produkcyjnej i developerskiej na raz
+instalacja gita na serwerze
+
+Nie instalowałam tego ponieważ niemam VPSa
