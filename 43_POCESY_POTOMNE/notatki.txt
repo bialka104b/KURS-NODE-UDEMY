@@ -1,0 +1,4 @@
+Dokumentacja -> Child Process
+- metoda .spawn
+- metoda .exec
+- WYKORZYSTANIE  MERODY SPAWN DO ZADAŃ GULPA
